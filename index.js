@@ -1,7 +1,7 @@
-require('dotenv').config();
+const number = 2;
 
-const name = process.env.MY_NAME;
-const city = process.env.MY_CITY;
-const language = process.env.MY_LANGUAGE;
+function doubleIt(value) {
+	return value * 2;
+}
 
-console.log(`I am ${name}, wilder in ${city}, and I love ${language}.`);
+doubleIt(number);
